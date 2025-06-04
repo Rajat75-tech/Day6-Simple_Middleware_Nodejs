@@ -8,7 +8,7 @@ const logger = (req, res, next) => {
 
     res.on("finish", () => {
     const duration = Date.now() - startTime;
-    console.log(`[${timestamp}] ${method} ${url} - Completed in ${duration}ms by Anushka Julaniya`);
+    console.log(`[${timestamp}] ${method} ${url} - Completed in ${duration}ms by RAJAT SHARMA`);
   });
 
   next();
